@@ -1,9 +1,8 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const bodyParser = require('body-parser');
-
-const contactsRoute = require('./routes/contactsRoute');
-const usersRoute = require('./routes/usersRoute');
+import express from 'express';
+import mongoose from 'mongoose';
+import bodyParser from 'body-parser';
+import contactsRoute from './routes/contactsRoute.js';
+import usersRoute from './routes/usersRoute.js';
 
 
 const app = express();
