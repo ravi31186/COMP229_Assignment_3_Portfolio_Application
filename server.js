@@ -11,6 +11,11 @@ const PORT = 3000;
 
 app.use(bodyParser.json());
 
+// Default Message
+app.get('/', (req, res) => {
+  res.send({ message: 'Welcome to Portfolio Application' });
+});
+
 mongoose.connect('mongodb://127.0.0.1:27017/Lab_Assignment_3', {
 
  useNewUrlParser: true,
