@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
   res.send({ message: 'Welcome to Portfolio Application' });
 });
 
-mongoose.connect('mongodb://127.0.0.1:27017/Lab_Assignment_3', {
+mongoose.connect('mongodb://127.0.0.1:27017/Lab_Assignment_4', {
 
  useNewUrlParser: true,
 
